@@ -1,7 +1,9 @@
+import Nav from "./Nav";
+
 const Layout = ({ children }) => {
   return (
     <>
-      <h1>Hello</h1>
+      <Nav />
       {children}
     </>
   );
